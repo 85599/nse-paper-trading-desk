@@ -148,6 +148,8 @@ sentence, and it did not invent a trade to look useful.
 * **[RUNBOOK.md](RUNBOOK.md)** — the actual 08:45-to-15:05 routine, one command per step.
 * **[DETAILS.md](DETAILS.md)** — every captured run, defect found and fixed, and the
   reasoning behind the guardrails.
+* **[CONTRIBUTING.md](CONTRIBUTING.md)** — what CI runs, what belongs where, and the
+  two things a pull request here must never do.
 * **[vendor/day-trader-skill-codex/README.md](vendor/day-trader-skill-codex/README.md)** — the engine's own docs.
 
 ## Attribution and license

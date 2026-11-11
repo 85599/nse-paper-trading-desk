@@ -4,7 +4,7 @@
 
 [![license: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 ![desk checks](https://github.com/85599/nse-paper-trading-desk/actions/workflows/ci.yml/badge.svg)
-[![python: 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](.github/workflows/ci.yml)
+[![python: 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](.github/workflows/ci.yml)
 
 Standard library only · no broker login · no API key · `execution_enabled: false`
 
@@ -124,7 +124,7 @@ sentence, and it did not invent a trade to look useful.
 
 | | |
 |---|---|
-| Python | 3.9+ (developed on 3.14, standard library only) |
+| Python | 3.10+ — CI checks 3.10, 3.12 and 3.14 (developed on 3.14, standard library only) |
 | OS | Built and tested on Windows 11. `india/job.py` needs `fcntl`, so scheduling is foreground polling instead of a background daemon |
 | Node | 20.19+ / 22.12+ — only to build the dashboard |
 | Data | NSE's public charting and option-chain endpoints, plus the exchange's announcement and XBRL archives. No key. Optional: `UPSTOX_ANALYTICS_TOKEN` in your own environment |

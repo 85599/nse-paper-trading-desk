@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "profile": "synthetic-public-source",
+  "source_files": 163,
+  "test_modules": [
+    "tests/test_dashboard.py",
+    "tests/test_decision_workflow.py",
+    "tests/test_forecast.py",
+    "tests/test_hardening.py",
+    "tests/test_india.py",
+    "tests/test_nse.py",
+    "tests/test_opportunities.py",
+    "tests/test_repo.py",
+    "tests/test_release.py",
+    "tests/test_team.py",
+    "tests/test_upstox.py",
+    "tests/test_workflow.py",
+    "tests/test_yahoo.py"
+  ],
+  "synthetic_fixtures": [
+    "tests/fixtures/india/synthetic.csv",
+    "tests/fixtures/india/workflow/disclosures.csv",
+    "tests/fixtures/india/workflow/financials.json",
+    "tests/fixtures/india/workflow/security-master.csv",
+    "tests/fixtures/india/workflow/yahoo-DEMO.NS.xml"
+  ],
+  "exclusions": [
+    "Git history",
+    "captured provider/disclosure fixtures",
+    "capture-dependent upstream tests",
+    "private session diagnostics",
+    "runtime reports and credentials",
+    "dependencies and generated builds"
+  ]
+}

@@ -1,0 +1,28 @@
+# Opening-range breakout watchlist -- cash equities with tight spreads and
+# enough intraday range to clear costs at a 15-minute opening range.
+# Ticks are resolved by: python scripts/registry.py build
+RELIANCE.NS
+HDFCBANK.NS
+ICICIBANK.NS
+SBIN.NS
+AXISBANK.NS
+KOTAKBANK.NS
+TCS.NS
+INFY.NS
+HCLTECH.NS
+LT.NS
+ITC.NS
+BAJFINANCE.NS
+MARUTI.NS
+M&M.NS
+TATASTEEL.NS
+SUNPHARMA.NS
+TITAN.NS
+NESTLEIND.NS
+ULTRACEMCO.NS
+POWERGRID.NS
+NTPC.NS
+COALINDIA.NS
+JSWSTEEL.NS
+ONGC.NS
+ADANIENT.NS

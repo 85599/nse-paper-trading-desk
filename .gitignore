@@ -1,0 +1,22 @@
+# Local state, caches and build output -- never commit a trading workspace.
+workspace/
+.check/
+.build-check/
+reports/
+__pycache__/
+*.pyc
+
+# Generated dashboard capture, kept local.
+live-detail.png
+
+# Instrument directory cache (~2 MB, refreshed by scripts/registry.py).
+config/instruments/
+
+# Dashboard dependencies and build output.
+vendor/day-trader-skill-codex/node_modules/
+vendor/day-trader-skill-codex/dashboard/node_modules/
+vendor/day-trader-skill-codex/dashboard/dist/
+
+# Credentials stay in the environment, never in the repo.
+.env
+*.token
